@@ -1,0 +1,40 @@
+[
+    {
+        "classes": [
+            {
+                "content": "Operating Systems course", 
+                "date": "Fall 2018", 
+                "time": "8/20/2018", 
+                "title": "EE 468"
+            }, 
+            {
+                "content": "Electromagnetics course", 
+                "date": "Fall 2018", 
+                "time": "8/20/2018", 
+                "title": "EE 371"
+            }, 
+            {
+                "content": "Data Structure and Algorithms course", 
+                "date": "Spring 2018", 
+                "time": "1/8/2018", 
+                "title": "EE 367"
+            }
+        ]
+    }, 
+    {
+        "projects": [
+            {
+                "content": "my team and I created a web application for users to input data and download custom calendar event files following RFC 5545 format to import event reminders into various calendar systems.", 
+                "date": "Summer 2018", 
+                "time": "8/10/2018", 
+                "title": "iCal Creator"
+            }, 
+            {
+                "content": "My team developed a single-player game to simulate caring for a virtual pet for a final project in EE 205.", 
+                "date": "Spring 2017", 
+                "time": "5/5/2017", 
+                "title": "Tamagotchi"
+            }
+        ]
+    }
+]
