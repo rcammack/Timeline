@@ -12,8 +12,8 @@ function plotTimeline(data) {
             if(elem.hasOwnProperty(propName)) {
                 var propValue = elem[propName];
                 for (let i = 0; i < propValue.length; i++) {
-                    let course = propValue[i];
-                    let time = course.time.split('/');
+                    let entry = propValue[i];
+                    let time = entry.time.split('/');
                     let mydate = new Date(time[2], time[0] - 1, time[1]);
                     if (typeof min === 'undefined'){
                         min = mydate;
@@ -37,22 +37,63 @@ function plotTimeline(data) {
 
 ////////////////////create buttons/////////////////////////
     let k = 0;
+    courses = {};
     for (let j = 0; j < data.length; j++) {
         elem = data[j];
         for(var propName in elem) {
             if(elem.hasOwnProperty(propName)) {
                 var propValue = elem[propName];
                 for (let i = 0; i < propValue.length; i++) {
-                    createButton(propValue[i], timeline[k]);
+                    if(propName == 'projects') {
+                        createProject(propValue[i], timeline[k]);
+                    }
+                    else if (propName == 'classes') {
+                        if(!courses.hasOwnProperty(propValue[i].date)) {
+                            courses[propValue[i].date] = [timeline[k], propValue[i].content];
+                        }
+                        else {
+                            courses[propValue[i].date].push(propValue[i].content);
+                        }
+                    }
                     k++;
                 }
             }
         }
     }
+    for ( semester in courses ) {
+        createSemester(semester, courses[semester].slice(1), courses[semester][0]);
+    }
     return;
 }
 
-function createButton(data, time) {
+function createProject(data, time) {
+    //button
+    var btn = document.createElement("BUTTON");
+    btn.classList.add("circular");
+    btn.classList.add("ui");
+    btn.classList.add("button");
+    btn.classList.add("green");
+    btn.classList.add("icon");
+    //icon
+    var icon = document.createElement("I");
+    icon.classList.add("icon");
+    icon.classList.add("pencil");
+    icon.classList.add("outline");
+    btn.appendChild(icon);
+    //popup
+    $(btn).popup({
+        title   : data.title,
+        content : data.content,
+        position: 'right center'
+    });
+    //position on timeline
+    $(btn)[0].style.position = 'absolute';
+    $(btn)[0].style.top = time;
+    //add to document
+    document.getElementById("timeline").appendChild(btn);
+}
+
+function createSemester(semester, data, time) {
     //button
     var btn = document.createElement("BUTTON");
     btn.classList.add("circular");
@@ -66,9 +107,10 @@ function createButton(data, time) {
     icon.classList.add("book");
     btn.appendChild(icon);
     //popup
+    const content = data.join(", ");
     $(btn).popup({
-        title   : data.title,
-        content : data.content,
+        title   : semester,
+        content : content,
         position: 'right center'
     });
     //position on timeline
