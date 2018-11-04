@@ -7,7 +7,7 @@ body {
  }
 
  .line:after {
-    content: '2016\a\a\a\a\00a0' '2018\00a0';
+    content: '';
     white-space: pre;
     position: absolute;
     z-index: -1;
@@ -17,14 +17,4 @@ body {
     border-right: 3px dotted #424242;
     transform: translate(-50%);
   }
-/* 
-  .dates:after {
-    content: "2018";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 10%;
-    transform: translate(-50%);
-  } */
   

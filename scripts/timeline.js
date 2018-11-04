@@ -35,6 +35,9 @@ function plotTimeline(data) {
     }
     console.log(timeline);
 
+    //plot time on line
+    plotTime(min, max);
+
 ////////////////////create buttons/////////////////////////
     let k = 0;
     courses = {};
@@ -64,6 +67,24 @@ function plotTimeline(data) {
         createSemester(semester, courses[semester].slice(1), courses[semester][0]);
     }
     return;
+}
+
+function plotTime(min, max) {
+    minYear = min.getFullYear();
+    maxYear = max.getFullYear();
+    diff = maxYear - minYear;
+    for(let i = 0; i <= diff; i++) {
+        year = (minYear + i).toString();
+        yearPercent = ((i / diff) * 100).toString() + '%';
+        console.log(year, yearPercent);
+        var newDiv = document.createElement("DIV");
+        var content = document.createTextNode(year);
+        newDiv.appendChild(content);
+        $(newDiv)[0].style.position = 'absolute';
+        $(newDiv)[0].style.left = '3%';
+        $(newDiv)[0].style.top = yearPercent;
+        document.getElementById("timeline").appendChild(newDiv);
+    }
 }
 
 function createProject(data, time) {

@@ -2,22 +2,238 @@
     {
         "classes": [
             {
-                "content": "Operating Systems course", 
+                "content": "Introduction to Operating Systems", 
                 "date": "Fall 2018", 
                 "time": "8/20/2018", 
                 "title": "EE 468"
             }, 
             {
-                "content": "Electromagnetics course", 
+                "content": "Engineering Electromagnetics I", 
                 "date": "Fall 2018", 
                 "time": "8/20/2018", 
                 "title": "EE 371"
             }, 
             {
-                "content": "Data Structure and Algorithms course", 
+                "content": "America and the World", 
+                "date": "Fall 2015", 
+                "time": "8/20/2015", 
+                "title": "AMST 150"
+            }, 
+            {
+                "content": "Principles of Chemistry", 
+                "date": "Fall 2015", 
+                "time": "8/20/2015", 
+                "title": "CHEM 171"
+            }, 
+            {
+                "content": "Principles of Macroeconomics", 
+                "date": "Fall 2015", 
+                "time": "8/20/2015", 
+                "title": "ECON 131"
+            }, 
+            {
+                "content": "Accelerated Calculus I", 
+                "date": "Fall 2015", 
+                "time": "8/20/2015", 
+                "title": "MATH 251A"
+            }, 
+            {
+                "content": "Principles of Effective Public Speaking", 
+                "date": "Spring 2016", 
+                "time": "1/8/2016", 
+                "title": "COMG 251"
+            }, 
+            {
+                "content": "Programming for Engineers", 
+                "date": "Spring 2016", 
+                "time": "1/8/2016", 
+                "title": "EE 160"
+            }, 
+            {
+                "content": "Accelerated Calculus II", 
+                "date": "Spring 2016", 
+                "time": "1/8/2016", 
+                "title": "MATH 252A"
+            }, 
+            {
+                "content": "General Physics I", 
+                "date": "Spring 2016", 
+                "time": "1/8/2016", 
+                "title": "PHYS 170A"
+            }, 
+            {
+                "content": "Basic Circuit Analysis I", 
+                "date": "Fall 2016", 
+                "time": "8/20/2016", 
+                "title": "EE 211"
+            }, 
+            {
+                "content": "Introduction to Digital Design", 
+                "date": "Fall 2016", 
+                "time": "8/20/2016", 
+                "title": "EE 260"
+            }, 
+            {
+                "content": "Accelerated Calculus III", 
+                "date": "Fall 2016", 
+                "time": "8/20/2016", 
+                "title": "MATH 253A"
+            }, 
+            {
+                "content": "General Physics II", 
+                "date": "Fall 2016", 
+                "time": "8/20/2016", 
+                "title": "PHYS 272"
+            }, 
+            {
+                "content": "Object Oriented Programming", 
+                "date": "Spring 2017", 
+                "time": "1/8/2017", 
+                "title": "EE 205"
+            }, 
+            {
+                "content": "Basic Circuit Analysis II", 
+                "date": "Spring 2017", 
+                "time": "1/8/2017", 
+                "title": "EE 213"
+            }, 
+            {
+                "content": "Sophmore VIP", 
+                "date": "Spring 2017", 
+                "time": "1/8/2017", 
+                "title": "ENGR 296"
+            }, 
+            {
+                "content": "Hawaii: Center of the Pacific", 
+                "date": "Spring 2017", 
+                "time": "1/8/2017", 
+                "title": "HWST 107"
+            }, 
+            {
+                "content": "Linear Algebra and Differential Equations", 
+                "date": "Spring 2017", 
+                "time": "1/8/2017", 
+                "title": "MATH 307"
+            }, 
+            {
+                "content": "General Physics III", 
+                "date": "Spring 2017", 
+                "time": "1/8/2017", 
+                "title": "PHYS 274"
+            }, 
+            {
+                "content": "Geography and Contemporary Society", 
+                "date": "Summer 2017", 
+                "time": "6/1/2017", 
+                "title": "GEOG 151"
+            }, 
+            {
+                "content": "Signals and System Analysis", 
+                "date": "Fall 2017", 
+                "time": "8/20/2017", 
+                "title": "EE 315"
+            }, 
+            {
+                "content": "Physical Electronics", 
+                "date": "Fall 2017", 
+                "time": "8/20/2017", 
+                "title": "EE 324"
+            }, 
+            {
+                "content": "Digital Systems and Computer Design", 
+                "date": "Fall 2017", 
+                "time": "8/20/2017", 
+                "title": "EE 361"
+            }, 
+            {
+                "content": "Discrete Math for Engineers", 
+                "date": "Fall 2017", 
+                "time": "8/20/2017", 
+                "title": "EE 362"
+            }, 
+            {
+                "content": "Junior Project", 
+                "date": "Fall 2017", 
+                "time": "8/20/2017", 
+                "title": "EE 396"
+            }, 
+            {
+                "content": "Junior VIP", 
+                "date": "Fall 2017", 
+                "time": "8/20/2017", 
+                "title": "EE 396"
+            }, 
+            {
+                "content": "Experiential Scholoarly Engage", 
+                "date": "Fall 2017", 
+                "time": "8/20/2017", 
+                "title": "HON 333"
+            }, 
+            {
+                "content": "Microelectronic Circuits I", 
+                "date": "Spring 2018", 
+                "time": "1/8/2018", 
+                "title": "EE 323"
+            }, 
+            {
+                "content": "EE Probability and Statistics", 
+                "date": "Spring 2018", 
+                "time": "1/8/2018", 
+                "title": "EE 342"
+            }, 
+            {
+                "content": "Computer Data Structure and Algorithms", 
                 "date": "Spring 2018", 
                 "time": "1/8/2018", 
                 "title": "EE 367"
+            }, 
+            {
+                "content": "Software Engineering I", 
+                "date": "Spring 2018", 
+                "time": "1/8/2018", 
+                "title": "EE 314"
+            }, 
+            {
+                "content": "Elementary Probability and Statistics", 
+                "date": "Spring 2018", 
+                "time": "1/8/2018", 
+                "title": "MATH 372"
+            }, 
+            {
+                "content": "Software Engineering II", 
+                "date": "Summer 2018", 
+                "time": "6/1/2018", 
+                "title": "ICS 414"
+            }, 
+            {
+                "content": "Introduction to Advanced Mathematics", 
+                "date": "Summer 2018", 
+                "time": "6/1/2018", 
+                "title": "MATH 321"
+            }, 
+            {
+                "content": "Special Topics in EE: Comm", 
+                "date": "Fall 2018", 
+                "time": "8/20/2018", 
+                "title": "EE 491D"
+            }, 
+            {
+                "content": "Ethics in Electrical Engineering", 
+                "date": "Fall 2018", 
+                "time": "8/20/2018", 
+                "title": "EE 495"
+            }, 
+            {
+                "content": "Capstone Design Project", 
+                "date": "Fall 2018", 
+                "time": "8/20/2018", 
+                "title": "EE 496"
+            }, 
+            {
+                "content": "Special Topics", 
+                "date": "Fall 2018", 
+                "time": "8/20/2018", 
+                "title": "ICS 491"
             }
         ]
     }, 
@@ -26,13 +242,13 @@
             {
                 "content": "my team and I created a web application for users to input data and download custom calendar event files following RFC 5545 format to import event reminders into various calendar systems.", 
                 "date": "Summer 2018", 
-                "time": "8/10/2018", 
+                "time": "8/1/2018", 
                 "title": "iCal Creator"
             }, 
             {
                 "content": "My team developed a single-player game to simulate caring for a virtual pet for a final project in EE 205.", 
                 "date": "Spring 2017", 
-                "time": "5/5/2017", 
+                "time": "5/1/2017", 
                 "title": "Tamagotchi"
             }
         ]
