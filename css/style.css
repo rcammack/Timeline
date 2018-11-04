@@ -5,3 +5,26 @@ body {
  br {
     line-height: 10%;
  }
+
+ .line:after {
+    content: '2016\a\a\a\a\00a0' '2018\00a0';
+    white-space: pre;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    border-right: 3px dotted #424242;
+    transform: translate(-50%);
+  }
+/* 
+  .dates:after {
+    content: "2018";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    transform: translate(-50%);
+  } */
+  

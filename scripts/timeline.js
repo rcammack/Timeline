@@ -88,6 +88,7 @@ function createProject(data, time) {
     });
     //position on timeline
     $(btn)[0].style.position = 'absolute';
+    $(btn)[0].style.left = '10%';
     $(btn)[0].style.top = time;
     //add to document
     document.getElementById("timeline").appendChild(btn);
@@ -115,6 +116,7 @@ function createSemester(semester, data, time) {
     });
     //position on timeline
     $(btn)[0].style.position = 'absolute';
+    $(btn)[0].style.left = '10%';
     $(btn)[0].style.top = time;
     //add to document
     document.getElementById("timeline").appendChild(btn);
